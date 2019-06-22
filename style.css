@@ -1,0 +1,189 @@
+* {
+	margin-left: 40px;
+}
+
+ 
+body {
+	background-color: #efeeee;
+}
+
+
+h1, p {
+	font-family: sans-serif;
+/*	text-align: center; */
+	color: #323330;
+/*	font-size:  100px;*/
+}
+
+
+p {
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+/*
+#output, #container {
+    justify-content: center;
+    margin-top: 100px;
+}
+*/
+
+/* I don't think is being used*/
+.container {
+  background-color: #A9A9A9;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 20px auto;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 50px;
+  width: 80%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* I don't think is being used*/
+/* Hide the browser's default radio button */
+/*
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+*/
+
+/* I don't think is being used*/
+/* Create a custom radio button */
+/*
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 100%;
+}
+*/
+
+
+.form-submit-button{
+  font-size:50px;
+}
+
+
+
+/*
+#submitbutton{
+ width: 20em;  
+ height: 5em; 
+}
+*/
+
+
+input[type=submit] {
+ width: 300px;  
+ height: 80px; 
+}
+
+
+.tall-box {
+  height: 90px; 
+  font-size: 40px;
+}
+
+
+/*
+.action-btn.Submit {
+    font-size: 18px;
+}
+*/
+
+/*
+input {
+    background-color: white;
+    border: 2px solid black;
+    font-family: sans-serif;
+    color: #000;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+*/
+
+
+/*
+ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+*/
+
+ul{
+  list-style: none; /* this should ensure there is no bullet points next to the radio buttons*/
+  margin: 0;
+  padding: 0;
+	overflow: auto;
+}
+
+
+/* I added this in to try to make the labels of the radio buttons clickable*/
+ul li label{
+  /*display: block;*/
+  /*position: relative;*/
+  /*background: #BBBBBB; */ /* I was hoping that a background colour might make a nice big block of colour, but it just meant that the space immediately around the text had its colour changed, which looked less good */
+  /*background-color: #333333; */
+  /*width: 100&#37;;*/
+  width: 15em;
+  font-weight: 300;
+  font-size: 1.35em;  
+  padding: 25px /*25px 25px 80px*/;
+  margin: 10px auto;                       
+  height: 100px;                            
+  /*cursor: pointer; */
+  /*-webkit-transition: all 0.25s linear; */
+	font-size: 30px;                         
+}
+
+
+/*  tried to apply labels to the second form (something specific form) but it didn't work, so i'm having a go at creating this class in case that helps */
+/*
+.multi-choice-form{
+  width: 5em;
+  font-weight: 300;
+  font-size: 1.35em;  
+  padding: 25px;
+  margin: 10px auto;                       
+  height: 100px;                            
+	font-size: 30px;                         
+}
+*/
+
+
+/* I created this rotate90 thing when I wanted to rotate an image of Derek.
+It doesn't seem to have worked, so maybe I should delete this out again?*/
+.rotate90 {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  -moz-transform: rotate(90deg); /* Mozilla */
+  transform: rotate(90deg);
+}
+
+/*
+img {
+  -ms-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+*/
+
+/*
+li a { */
+ /* display: inline-block;*/    /* not sure if this should be here -- I thought it might explain why the rotate wasn't working*/
+/*}*/
+
