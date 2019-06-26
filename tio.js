@@ -1,8 +1,8 @@
 
-var question = `<h2>Welcome to TIO!</h2><br><br><p>  <img src="/person-listening.jpg" alt="Person listening icon" height="140" width="200" auto="compress"></p><br><p>TIO stands for Talk It Over -- this is a place where you can talk about whatever is on your mind.</p><p>This is a very early prototype! Thank you for trying it.</p><p>If you\'re feeling low, type what\'s on your mind and I\'ll listen to you :-) <p> I\'m not a very clever piece of software and I might not understand everything you say, but I\'m here for you for as long as you need. And I won\'t judge you. So if you think that talking things through with someone in a safe confidential space might help, have a go.</p><p>Let\'s start with you just rating how you feel on a scale from 1 to 10, where 1 is terrible and 10 is great</p> 
+var question = `<h2>Welcome to TIO!!</h2><br><br><p>  <img src="/person-listening.jpg" alt="Person listening icon" height="140" width="200" auto="compress"></p><br><p>TIO stands for Talk It Over -- this is a place where you can talk about whatever is on your mind.</p><p>This is a very early prototype! Thank you for trying it.</p><p>If you\'re feeling low, type what\'s on your mind and I\'ll listen to you :-) <p> I\'m not a very clever piece of software and I might not understand everything you say, but I\'m here for you for as long as you need. And I won\'t judge you. So if you think that talking things through with someone in a safe confidential space might help, have a go.</p><p>Let\'s start with you just rating how you feel on a scale from 1 to 10, where 1 is terrible and 10 is great</p> 
 
 
-<form id="initialsurvey" name="initialsurvey" data-netlify="true"> 
+<form id="initialsurvey" name="initialsurvey" data-netlify="true" method="POST"> 
 <ul>
   <li><input type="radio" name="initialhappinessvalue" id="1" value=1><label for="1">1</label></li><br>
   <li><input type="radio" name="initialhappinessvalue" id="2" value=2><label for="2">2</label></li><br>
@@ -722,7 +722,7 @@ function freeTextBot() {
     <h3>Thank you!</h3>
     <p>Thank you for using this bot. It would really help if you could say how you feel now.</p>
     
-    <form id="finalsurvey" name="finalsurvey" data-netlify="true"> 
+    <form id="finalsurvey" name="finalsurvey" data-netlify="true" method="POST"> 
     <ul>
       <li><input type="radio" name="finalhappinessvalue" id="1" value=1><label for="1">1</label></li><br>
       <li><input type="radio" name="finalhappinessvalue" id="2" value=2><label for="2">2</label></li><br>
