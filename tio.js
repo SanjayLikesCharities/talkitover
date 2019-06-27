@@ -3,7 +3,7 @@
 According to section 6 of https://cobwwweb.com/what-you-need-to-know-about-netlify-forms, I need to use the stringify method from the query-string library
 The below lines of code are installing the query-string library, as far as I can tell from the relevant github page: https://github.com/sindresorhus/query-string
 */
-$ npm install query-string
+// $ npm install query-string
 //const queryString = require('query-string');
 
 
