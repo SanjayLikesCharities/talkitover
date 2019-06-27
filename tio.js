@@ -33,7 +33,7 @@ var question = `<h2>Welcome to TIO! :-)</h2><br><br><p>  <img src="/person-liste
 
 
 let formData = { "form-name": "initialsurvey", "initialhappinessvalue" : initialhappinessvalue };
-const dataToSend = queryString.stringify(formData);
+//const dataToSend = queryString.stringify(formData);
 
 
 mixpanel.track("Video play");
